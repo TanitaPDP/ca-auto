@@ -40,6 +40,31 @@
         &_descr
             width: 300px
             margin-top: 20px
+    .reason_round
+        margin-right: 0
+        margin: 0 auto
+    .mobile_item
+        width: 100%
+        padding-top: 50px
+    .choice 
+        min-height: 600px
+        padding: 57px 0 50px 0 
+    .choice_img 
+        width: 100%
+        padding-top: 65px
+    .footer
+        &_wrapper > div
+            &:nth-child(1) 
+                width: 20%
+            &:nth-child(2)
+                width: 60%
+            &:nth-child(3)
+                width: 20%
+        &_mobile
+            display: flex
+            flex-direction: column
+            justify-content: flex-end
+    
 
 @media (max-width: 767px)    
     .menu
@@ -107,7 +132,27 @@
         display: none
     .xs-visible
         display: block
-
+    .reason_descr 
+        width: 100%
+        margin-top: 15px
+    .mobile_item
+        width: 90%
+        padding-top: 50px
+    .footer
+        &_wrapper
+            flex-direction: column            
+        &_wrapper > div
+            margin-bottom: 20px   
+            &:nth-child(1) 
+                display: flex
+                justify-content: center
+                width: 100%
+            &:nth-child(2)
+                width: 100%
+            &:nth-child(3)
+                width: 100%
+                justify-content: center
+        
 @media (max-width: 575px) 
     .subheader
       height: 60px
@@ -143,3 +188,18 @@
         margin-top: 72px
     .menu
       width: 85%
+    .reason
+        padding: 50px 0
+    .title 
+        font-size: 28px
+    .footer_links 
+        width: 100%
+        &_main
+            flex-wrap: wrap
+            justify-content: space-arround
+        &_sub
+            flex-wrap: wrap
+            justify-content: space-arround
+
+
+
